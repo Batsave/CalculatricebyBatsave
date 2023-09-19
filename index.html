@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+    <script src="/app.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <input id="output"/>
+        <div class="button-main">
+        <div class="button-box">
+            
+            <section>
+                <button onclick="errase('')">CA</button>
+                <button onclick="send('/')">/</button>
+            </section>
+
+            <section>
+                <button onclick="send('7')">7</button>
+                <button onclick="send('8')">8</button>
+                <button onclick="send('9')">9</button>
+            </section>
+
+            <section>
+                <button onclick="send('4')">4</button>
+                <button onclick="send('5')">5</button>
+                <button onclick="send('6')">6</button>
+            </section>
+
+            <section>
+                <button onclick="send('1')">1</button>
+                <button onclick="send('2')">2</button>
+                <button onclick="send('3')">3</button>
+
+            </section>
+            <section>
+                <button onclick="send('0')">0</button>
+                <button onclick="send('.')">.</button>
+
+            </section>
+
+        </div>
+    
+        <div class="operator">
+            <button onclick="send('*')" accesskey="*">*</button>
+            <button onclick="send('-')" accesskey="-">-</button>
+            <button onclick="send('+')" accesskey="+">+</button>
+            <button onclick="calcul()" accesskey="enter" >=</button>
+        </div>
+    </div>
+    </main>
+</body>
+
+</html>
