@@ -5,33 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple calculator</title>
-    <script src="/app.js"></script>
-    <link href="style.css" rel="stylesheet">
+    
+    <link href="/src/css/style.css" rel="stylesheet">
+    <link href="/src/css/switch.css" rel="stylesheet">
+    <link href="/src/css/dark-mode.css" rel="stylesheet">
+    <script src="/src/js/app.js"></script>
+    <script src="/src/js/theme.js"></script>
+
 </head>
 
 <body>
+    
+    <header>
+        <span class="theme-text">Theme</span>
+        <label id="theme" class="form-switch">
+            <input type="checkbox" id="theme">
+            <i></i>
+        </label>
+    </header>
     <main>
-        <input id="output"/>
+        <input id="output" />
         <div class="button-main">
         <div class="button-box">
-            
             <section>
-                <button onclick="errase('')">CA</button>
+                <button onclick="erase('')">CA</button>
                 <button onclick="send('/')">/</button>
             </section>
-
             <section>
                 <button onclick="send('7')">7</button>
                 <button onclick="send('8')">8</button>
                 <button onclick="send('9')">9</button>
             </section>
-
             <section>
                 <button onclick="send('4')">4</button>
                 <button onclick="send('5')">5</button>
                 <button onclick="send('6')">6</button>
             </section>
-
             <section>
                 <button onclick="send('1')">1</button>
                 <button onclick="send('2')">2</button>
@@ -43,9 +52,7 @@
                 <button onclick="send('.')">.</button>
 
             </section>
-
         </div>
-    
         <div class="operator">
             <button onclick="send('*')" accesskey="*">*</button>
             <button onclick="send('-')" accesskey="-">-</button>
@@ -54,6 +61,10 @@
         </div>
     </div>
     </main>
+    <footer>
+       
+        Calculator by Batsave
+    </footer>
 </body>
 
 </html>

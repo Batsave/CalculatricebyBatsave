@@ -1,0 +1,11 @@
+:root  {
+    
+    --background-color: #101010;
+    --screen-color: #252525;
+    --gap-value: 1rem;
+
+    --color-button-default: #151515;
+    --color-button-hover: #090909;
+    --color-button-text: #d9d9d9;
+    --color-footer-text: #303030;
+}
