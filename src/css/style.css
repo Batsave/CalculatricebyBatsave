@@ -13,7 +13,7 @@ body {
     background-color: var(--background-color);
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 95vh;
     padding: 1rem;
 }
 
@@ -101,8 +101,7 @@ button:active {
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
+    
     position: absolute;
     bottom: 1rem;
     font-family: Helvetica;
