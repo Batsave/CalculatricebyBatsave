@@ -7,12 +7,15 @@
 body {
     display: flex;
     flex-direction: row;
+    background-image:var(--display);
+    background-size: cover;
     background-color: var(--background-color);
     justify-content: center;
     align-items: center;
     height: 100vh;
     padding: 1rem;
 }
+
 
 main {
     display: flex;
@@ -22,6 +25,10 @@ main {
     max-height: 65ch;
     min-height: 60ch;
     gap: var(--gap-value);
+    background-color: var(--main-bg-color);
+    padding: 1rem;
+    border-radius: 0.6rem;
+    backdrop-filter: var(--main-bd-filter);
 }
 
 #output {

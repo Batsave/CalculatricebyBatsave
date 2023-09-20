@@ -1,5 +1,4 @@
 
-
 const linkElement = document.querySelector('link[href="/src/css/dark-mode.css"]');
 let enterElement = document.getElementById('enter-button');
 let outputElement = document.getElementById('output');
@@ -11,6 +10,10 @@ if (enterElement && outputElement) {
         document.getElementById('output').value = "BATSAVE LE GOAT 🐐🐐🐐";
         console.log("BATSAVE LE GOAT 🐐🐐🐐");
         linkElement.href = "/src/css/special-mode.css";
+      } else if (screenCheck === "JuraScript" || screenCheck === "jurascript") {
+        document.getElementById('output').value = " SACOD > JuraScript";
+        console.log("💥 SACOD > JuraScript 💥");
+        linkElement.href = "/src/css/sacod.css";
       }
     });
 }

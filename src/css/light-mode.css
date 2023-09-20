@@ -1,5 +1,5 @@
 :root {
- 
+    --display: none;
     --background-color: #d9d9d9;
     --screen-color: #898989;
     --gap-value: 1rem;
