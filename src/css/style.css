@@ -4,7 +4,6 @@
     transition: all 0.3s ease-in-out;
 }
 
-
 body {
     display: flex;
     flex-direction: row;
@@ -20,7 +19,6 @@ main {
     flex-direction: column;
     max-width: 65ch;
     min-width: 30ch;
-
     max-height: 65ch;
     min-height: 60ch;
     gap: var(--gap-value);
@@ -44,9 +42,7 @@ main {
     flex-direction: row;
     max-width: 65ch;
     min-width: 30ch;
-height: 100vw;
-    
-    
+    height: 100vw;
     gap: var(--gap-value);
 }
 
@@ -55,7 +51,6 @@ section {
     flex-direction: row;
     height: 100%;
     gap: var(--gap-value);
-
 }
 
 .button-box {
