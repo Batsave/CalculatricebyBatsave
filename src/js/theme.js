@@ -8,7 +8,7 @@ if (enterElement && outputElement) {
   console.log('test');
     enterElement.addEventListener("click", () => {
       const screenCheck = document.getElementById('output').value;
-      if (screenCheck === "0.0005839172505839173") {
+      if (screenCheck === "0.0005839172505839173" || screenCheck === "Batsave") {
         document.getElementById('output').value = "BATSAVE LE GOAT 🐐🐐🐐";
         console.log("BATSAVE LE GOAT 🐐🐐🐐");
         linkElement.href = "/src/css/special-mode.css";
