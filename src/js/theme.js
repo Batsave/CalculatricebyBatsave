@@ -10,7 +10,7 @@ if (enterElement && outputElement) {
         document.getElementById('output').value = "BATSAVE LE GOAT 🐐🐐🐐";
         console.log("BATSAVE LE GOAT 🐐🐐🐐");
         linkElement.href = "/src/css/special-mode.css";
-      } else if (screenCheck === "JuraScript" || screenCheck === "jurascript") {
+      } else if (screenCheck === "JuraScript" || screenCheck === "jurascript" || screenCheck === "sacod" || screenCheck === "SACOD") {
         document.getElementById('output').value = " SACOD > JuraScript";
         console.log("💥 SACOD > JuraScript 💥");
         linkElement.href = "/src/css/sacod.css";
