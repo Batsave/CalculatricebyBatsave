@@ -5,7 +5,6 @@ let enterElement = document.getElementById('enter-button');
 let outputElement = document.getElementById('output');
 
 if (enterElement && outputElement) {
-  console.log('test');
     enterElement.addEventListener("click", () => {
       const screenCheck = document.getElementById('output').value;
       if (screenCheck === "0.0005839172505839173" || screenCheck === "Batsave") {
