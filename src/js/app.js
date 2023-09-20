@@ -1,10 +1,12 @@
 
+
 function calcul() 
 { 
     let screen = document.getElementById("output").value;
     let result = eval(screen);
     document.getElementById("output").value = result; 
     
+   
 } 
 
 function send(val) 
@@ -14,5 +16,6 @@ function send(val)
 function erase() 
 { 
     document.getElementById("output").value = ""
-    etat = false; 
+   
 } 
+
