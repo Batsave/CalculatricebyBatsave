@@ -1,4 +1,3 @@
-const container = document.getElementById("container");
 const linkElement = document.querySelector('link[href="/src/css/dark-mode.css"]');
 
 document.addEventListener("change", function(event) {
